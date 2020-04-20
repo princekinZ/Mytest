@@ -85,8 +85,8 @@ def denclue(points, bandwidth, hyper, convergence):
         b_dict[i]=xs
 
     for i in b_dict.keys():
-        print("cluster",i)
-        print("points in cluster",b_dict[i])
+        print("群集",i)
+        print("群集",i,"中的点",b_dict[i])
 
 if __name__ == "__main__":
     D = np.loadtxt('iris.txt', delimiter=',', usecols=(0, 1, 2, 3))
